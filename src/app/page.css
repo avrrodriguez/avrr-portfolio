@@ -1,12 +1,13 @@
 header {
   height: 10vh;
+  border-bottom: 1px solid black;
 }
 
 footer {
   height: 10vh;
+  border-top: 1px solid black;
 }
 
 .container {
   width: 100vw;
-  height: 80vh;
 }
