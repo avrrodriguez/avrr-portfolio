@@ -1,3 +1,5 @@
+@import url("../globals.css");
+
 .top-section {
   height: 90vh;
   width: 100%;
@@ -7,4 +9,6 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+
+  background-color: var(--primary--color);
 }
