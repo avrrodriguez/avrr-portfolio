@@ -20,7 +20,7 @@ body {
 
 body {
   color: var(--text-color);
-  background: var(--primary--color);
+  background: var(white);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,3 +1,5 @@
+@import url("../globals.css");
+
 .top-section {
   height: 90vh;
   width: 100%;
@@ -5,6 +7,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: var(--primary--color);
+}
+
+.top-section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
+}
+
+.book-image {
+  width: 300px;
+  position: absolute;
+  bottom: -100px;
+}
+
+.chess-piece-image {
+  width: 300px;
+  position: absolute;
+  right: 0px;
+}
+
+.computer-pencil-image {
+  width: 300px;
+  position: absolute;
+  left: 0px;
+}
+
+.gear-image {
+  width: 300px;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}
+
+.paintbrush-image {
+  width: 300px;
+  position: absolute;
+  top: 0px;
 }

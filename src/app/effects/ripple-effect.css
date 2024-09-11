@@ -1,0 +1,19 @@
+.ripple-effect {
+  border: 2px solid transparent;
+  opacity: 1;
+
+  clip-path: ellipse(0% 0%) ;
+
+  animation: ripple-animation-frames 6s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes ripple-animation-frames {
+  0% {
+    clip-path: ellipse(0% 0%);
+  }
+
+  100% {
+    clip-path: ellipse(100% 100%);
+  }
+}
