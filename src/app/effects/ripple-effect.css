@@ -5,7 +5,8 @@
   clip-path: ellipse(0% 0%) ;
 
   animation: ripple-animation-frames 6s forwards;
-  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-delay: 3.8s;
 }
 
 @keyframes ripple-animation-frames {
