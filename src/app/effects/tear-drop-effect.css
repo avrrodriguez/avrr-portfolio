@@ -1,0 +1,33 @@
+.tear-drop-effect {
+  animation: tear-drop-animation 3s forwards;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+.brush-after {
+  animation: brush-after-animation 1s forwards;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+
+  opacity: 1;
+}
+
+@keyframes tear-drop-animation {
+  0% {
+    top: 4px;
+  }
+
+  100% {
+    top: 32vh;
+  }
+}
+
+@keyframes brush-after-animation {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

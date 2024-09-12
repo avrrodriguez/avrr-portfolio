@@ -7,45 +7,80 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: var(--primary--color);
 }
 
 .top-section-content {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--primary--color);
+}
+
+.brush-drop {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  top: 0px;
+}
+
+.paintbrush-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  transform: rotate(135deg);
+}
+
+.tear-drop-image {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  
+  position: relative;
+  left: -8px;
+  top: 4px;
 }
 
 .book-image {
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   position: absolute;
-  bottom: -100px;
+  bottom: -10px;
 }
 
 .chess-piece-image {
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   position: absolute;
   right: 0px;
 }
 
 .computer-pencil-image {
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   position: absolute;
   left: 0px;
 }
 
 .gear-image {
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   position: absolute;
   bottom: 0px;
   left: 40px;
-}
-
-.paintbrush-image {
-  width: 300px;
-  position: absolute;
-  top: 0px;
 }
