@@ -25,7 +25,7 @@
 
 .brush-drop {
   width: 100%;
-  height: auto;
+  height: 52vh;
 
   display: flex;
   flex-direction: column;
@@ -46,10 +46,9 @@
   width: 100%;
   max-width: 50px;
   height: auto;
-  
-  position: relative;
-  left: -8px;
-  top: 4px;
+  position: absolute;
+  top: 170px;
+  margin-right: 12px;
 }
 
 .book-image {
@@ -57,7 +56,8 @@
   max-width: 200px;
   height: auto;
   position: absolute;
-  bottom: -10px;
+  bottom: 0px;
+  right: 20vw;
 }
 
 .chess-piece-image {
@@ -65,7 +65,7 @@
   max-width: 200px;
   height: auto;
   position: absolute;
-  right: 0px;
+  right: 5px;
 }
 
 .computer-pencil-image {
@@ -73,7 +73,7 @@
   max-width: 200px;
   height: auto;
   position: absolute;
-  left: 0px;
+  left: 5px;
 }
 
 .gear-image {
@@ -82,5 +82,23 @@
   height: auto;
   position: absolute;
   bottom: 0px;
-  left: 40px;
+  left: 20vw;
+}
+
+@media screen and (max-width: 900px) {
+  .book-image {
+    right: 1vw;
+  }
+
+  .gear-image {
+    left: 1vw;
+  }
+
+  .chess-piece-image {
+    top: 15vh;
+  }
+
+  .computer-pencil-image {
+    top: 15vh;
+  }
 }

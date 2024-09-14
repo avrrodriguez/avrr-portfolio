@@ -14,11 +14,11 @@
 
 @keyframes tear-drop-animation {
   0% {
-    top: 4px;
+    top: 172px;
   }
 
   100% {
-    top: 32vh;
+    top: 98%;
   }
 }
 
