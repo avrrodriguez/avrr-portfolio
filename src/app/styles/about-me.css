@@ -1,0 +1,30 @@
+@import url(./globals.css);
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.about-me-container {
+  width: 1200px;
+  max-width: 80%;
+  height: auto;
+  padding: 40px;
+  border-radius: 25px;
+  border: solid var(--secondary-color);
+  border-width: 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-me-container > * {
+  color: var(--secondary-color);
+}
+
+.about-me-container > h2 {
+  display: flex;
+  justify-content: center;
+}

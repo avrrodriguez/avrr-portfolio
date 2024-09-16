@@ -1,0 +1,19 @@
+.scroll-animation-div {
+  background-color: lime;
+}
+
+.border-scrolling-effect {
+  animation: border-scrolling-animation linear both;
+  animation-timeline: scroll();
+  width: 20%;
+}
+
+@keyframes border-scrolling-animation {
+  from {
+    width: 20%;
+  }
+
+  to {
+    width: 100%;
+  }
+}

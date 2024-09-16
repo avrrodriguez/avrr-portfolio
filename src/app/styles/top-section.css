@@ -1,4 +1,4 @@
-@import url("../globals.css");
+@import url("./globals.css");
 
 .top-section {
   height: 90vh;
@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  padding: 20px;
 
   height: 100%;
   width: 100%;
@@ -85,7 +86,7 @@
   left: 20vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .book-image {
     right: 1vw;
   }
