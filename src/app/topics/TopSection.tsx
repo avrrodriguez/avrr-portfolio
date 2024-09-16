@@ -1,4 +1,4 @@
-import "./top-section.css";
+import "../styles/top-section.css";
 import "../effects/ripple-effect.css";
 import "../effects/tear-drop-effect.css";
 import Image from "next/image";

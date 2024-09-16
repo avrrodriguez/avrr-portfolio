@@ -1,0 +1,6 @@
+@import url(./globals.css);
+
+.work-experience {
+  background-color: var(--secondary-color);
+  height: 80vh;
+}
