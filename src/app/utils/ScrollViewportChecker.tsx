@@ -1,9 +1,7 @@
 export default function ScrollViewportChecker() {
 
-
   let win = document.getElementById("about-me-container");
   let elemInViewPort = win?.getBoundingClientRect();
-  console.log(elemInViewPort?.top, window.innerHeight);
 
   if (elemInViewPort) {
       return (

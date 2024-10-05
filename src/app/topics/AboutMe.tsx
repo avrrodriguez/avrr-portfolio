@@ -9,8 +9,9 @@ export default function AboutMe() {
 
   function ScrollAnimation(event: Event) {
     let elemInViewPort = ScrollViewportChecker();
-    if (elemInViewPort) {
-      let inViewElem = document.getElementsByClassName("scroll-animation-div")[0];
+    let inViewElem = document.getElementsByClassName("about-me-container")[0];
+
+    if (elemInViewPort && inViewElem) {
       inViewElem.classList.add("border-scrolling-effect")
     }
   }

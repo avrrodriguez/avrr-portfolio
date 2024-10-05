@@ -1,19 +1,17 @@
-.scroll-animation-div {
-  background-color: lime;
-  width: 20%;
-}
-
 .border-scrolling-effect {
   animation: 1s border-scrolling-animation linear forwards;
-  width: 20%;
+  opacity: 0;
+  transform: translateY(100px);
 }
 
 @keyframes border-scrolling-animation {
   from {
-    width: 20%;
+    opacity: 0;
+    transform: translateY(100px);
   }
 
   to {
-    width: 100%;
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
