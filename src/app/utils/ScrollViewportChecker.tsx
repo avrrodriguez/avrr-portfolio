@@ -1,7 +1,7 @@
-export default function ScrollViewportChecker() {
+export default function ScrollViewportChecker(elemClassName: string) {
 
-  let win = document.getElementById("about-me-container");
-  let elemInViewPort = win?.getBoundingClientRect();
+  let win: HTMLElement | null = document.getElementById(elemClassName);
+  let elemInViewPort: DOMRect | undefined = win?.getBoundingClientRect();
 
   if (elemInViewPort) {
       return (
@@ -11,9 +11,3 @@ export default function ScrollViewportChecker() {
     );
   }
 };
-
-// full element in view port check
-// elemInViewPort.top >= 0 &&
-// elemInViewPort.left >= 0 &&
-// elemInViewPort.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /* or $(window).height() */
-// elemInViewPort.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
