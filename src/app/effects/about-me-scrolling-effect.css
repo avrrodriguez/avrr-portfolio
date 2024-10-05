@@ -1,10 +1,10 @@
 .scroll-animation-div {
   background-color: lime;
+  width: 20%;
 }
 
 .border-scrolling-effect {
-  animation: border-scrolling-animation linear both;
-  animation-timeline: scroll();
+  animation: 1s border-scrolling-animation linear forwards;
   width: 20%;
 }
 
