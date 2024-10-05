@@ -7,9 +7,9 @@ import { useEffect } from "react";
 
 export default function AboutMe() {
 
-  function ScrollAnimation(event: Event) {
-    let elemInViewPort = ScrollViewportChecker();
-    let inViewElem = document.getElementsByClassName("about-me-container")[0];
+  function ScrollAnimation() {
+    let elemInViewPort: boolean | undefined = ScrollViewportChecker("about-me-container");
+    let inViewElem: Element = document.getElementsByClassName("about-me-container")[0];
 
     if (elemInViewPort && inViewElem) {
       inViewElem.classList.add("border-scrolling-effect")
@@ -17,7 +17,7 @@ export default function AboutMe() {
   }
 
   useEffect(() => {
-    window.addEventListener("scroll", (event) => ScrollAnimation(event));
+    window.addEventListener("scroll", () => ScrollAnimation());
   }, [])
 
   return (
