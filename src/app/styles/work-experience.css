@@ -1,11 +1,11 @@
 @import url(./globals.css);
 
 .work-experience {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 90px;
+  padding-bottom: 50px;
 
   background-image: url("../../../public/watercolor-blue-background.jpeg");
   background-repeat: no-repeat;
@@ -14,6 +14,58 @@
   background-blend-mode: lighten;
 
   /* box-shadow: inset 5px 5px 5px 5px #ffffff; */
+}
+
+.web-developer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  margin-top: -20px;
+
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.web-developer-tools-info, 
+.web-developer-skills-info
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+}
+
+.web-developer-tools-info > div,
+.web-developer-skills-info > div {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.web-developer-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 20px;
+}
+
+.web-developer-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 20px;
+}
+
+.web-developer-tools-title,
+.web-developer-skills-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-shadow {
@@ -44,4 +96,10 @@ div.work-experience {
 .web-developer-title-accent-image {
   width: auto;
   height: auto;
+}
+
+.web-developer-subtitle-accent-image {
+  width: auto;
+  height: auto;
+  transform: rotateY(180deg);
 }
