@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 90px;
+  gap: 110px;
   padding-bottom: 50px;
 
   background-image: url("../../../public/watercolor-blue-background.jpeg");
@@ -16,7 +16,7 @@
   /* box-shadow: inset 5px 5px 5px 5px #ffffff; */
 }
 
-.web-developer-info {
+.work-experience-info {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -27,8 +27,8 @@
   padding: 0px 50px;
 }
 
-.web-developer-tools-info, 
-.web-developer-skills-info
+.work-experience-tools-info, 
+.work-experience-skills-info
 {
   display: flex;
   flex-direction: row;
@@ -36,8 +36,8 @@
   gap: 30px;
 }
 
-.web-developer-tools-info > div,
-.web-developer-skills-info > div {
+.work-experience-tools-info > div,
+.work-experience-skills-info > div {
   width: 50%;
 
   display: flex;
@@ -45,7 +45,7 @@
   gap: 15px;
 }
 
-.web-developer-tools {
+.work-experience-tools {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,7 @@
   gap: 20px;
 }
 
-.web-developer-skills {
+.work-experience-skills {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,8 +61,8 @@
   gap: 20px;
 }
 
-.web-developer-tools-title,
-.web-developer-skills-title {
+.work-experience-tools-title,
+.work-experience-skills-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,12 +75,15 @@
   margin-bottom: -40px;
 }
 
-.web-developer-title {
+.work-experience-title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.work-experience-description {
+  margin-top: 30px;
+}
 
 .work-experience p,
 div.work-experience {
@@ -93,12 +96,12 @@ div.work-experience {
   transform: rotate(90deg);
 }
 
-.web-developer-title-accent-image {
+.work-experience-title-accent-image {
   width: auto;
   height: auto;
 }
 
-.web-developer-subtitle-accent-image {
+.work-experience-subtitle-accent-image {
   width: auto;
   height: auto;
   transform: rotateY(180deg);
