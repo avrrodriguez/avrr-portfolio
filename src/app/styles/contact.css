@@ -1,0 +1,46 @@
+@import url(./globals.css);
+
+.contact-section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-section p,
+.contact-section h5 {
+  color: black;
+}
+
+.resume-button-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-button {
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+
+  background-color: var(--secondary-color);
+
+  border: 2px solid black;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+
+  /* text styling */
+  text-decoration: none;
+  font-size: 40px; 
+  color: white;
+}
+
+.radial-gradient-animation {
+  background: url("../../../public/four-images-image-transparent.png");
+  background-position: top left, top right, bottom left, bottom right;
+  background-color: #e9dae0;
+  background-size: 100px 100px;
+}

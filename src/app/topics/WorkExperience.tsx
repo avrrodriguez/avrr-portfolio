@@ -22,7 +22,7 @@ export default function WorkExperience() {
           width={300} 
           height={300} 
         />
-        <p className="work-experience-description">Dentalfone, 1+ years experience - 07/2023-present</p>
+        <h4 className="work-experience-description">Dentalfone, 1+ years experience - 07/2023-present</h4>
       </div>
       <div className="work-experience-info">
         <div className="work-experience-tools">
@@ -86,7 +86,7 @@ export default function WorkExperience() {
           width={300} 
           height={300} 
         />
-        <p className="work-experience-description">AngelPT, 09/2024-present</p>
+        <h4 className="work-experience-description">AngelPT, 2+ months 09/2024-present</h4>
       </div>
       <div className="work-experience-info">
         <div className="work-experience-tools">
@@ -134,6 +134,12 @@ export default function WorkExperience() {
           </div>
         </div>
       </div>
+      <div className="contact-section">
+      <h5>You can find my email, phone number, and other information by clicking the link below.</h5>
+      <div className="resume-button-section">
+          <a className="resume-button" href="/">Resume</a>
+      </div>
+    </div>
     </div>
   )
 }

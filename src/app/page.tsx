@@ -12,7 +12,6 @@ export default function Home() {
         <AboutMe />
         <WorkExperience />
       </main>
-      <footer></footer>
     </div>
   );
 }
