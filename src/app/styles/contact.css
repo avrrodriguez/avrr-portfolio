@@ -39,20 +39,8 @@
 }
 
 .radial-gradient-animation {
-  background: radial-gradient(circle at left, var(--secondary-color) 10%, white 15%, var(--secondary-color) 10%);
-  animation: gradient-animation 20s forwards;
-  background-size: 100%;
-  background-position: center;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-size: 100%;
-  }
-  50% {
-    background-size: 300%;
-  }
-  100% {
-    background-size: 100%;
-  }
+  background: url("../../../public/four-images-image-transparent.png");
+  background-position: top left, top right, bottom left, bottom right;
+  background-color: #e9dae0;
+  background-size: 100px 100px;
 }
