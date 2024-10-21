@@ -137,7 +137,7 @@ export default function WorkExperience() {
       <div className="contact-section">
       <h5>You can find my email, phone number, and other information by clicking the link below.</h5>
       <div className="resume-button-section">
-          <a className="resume-button" href="/">Resume</a>
+          <a className="resume-button" href="/resume">Resume</a>
       </div>
     </div>
     </div>

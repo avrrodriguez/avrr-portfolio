@@ -1,5 +1,3 @@
-@import url("./globals.css");
-
 .top-section {
   height: 90vh;
   width: 100%;
@@ -21,7 +19,7 @@
   height: 100%;
   width: 100%;
 
-  background-color: var(--primary-color);
+  background-color: #1C4E80;
 }
 
 .brush-drop {
