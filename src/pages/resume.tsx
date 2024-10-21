@@ -21,7 +21,7 @@ export default function Resume() {
           <div className="content">
             <div className="title-date-container">
               <p>Web Developer | Dentalfone</p>
-              <p>Jul 2023 | Present</p>
+              <p>Jul 2023 - Present</p>
             </div>
             <ul>
               <li>Design and managed 100+ wordpress sites</li>
@@ -48,7 +48,7 @@ export default function Resume() {
             <h2>Coding Projects</h2>
           </div>
           <div className="bottom-border-custom"></div>
-          <div className="content">
+          <div className="content coding-projects-content">
             <p>Wordpress Calendar - Full stack application where a user can add events to a calendar.</p>
             <ul>
               <li>Built GraphQL API using Headless Wordpress.</li>
@@ -59,10 +59,53 @@ export default function Resume() {
           <div className="content">
             <p>Chess Your Opening - Full stack application where a user can study chess openings.</p>
             <ul>
-              <li>Built GraphQL API using Headless Wordpress.</li>
-              <li>Designed and created a multi-page application using Next.js and Typescript.</li>
-              <li>Uses Advanced Custom Fields to edit content in Wordpress.</li>
+              <li><a href="https://github.com/avrrodriguez/chess-your-opening">Backend Repo</a> / <a href="https://github.com/avrrodriguez/chess-your-opening-frontend">Frontend Repo</a></li>
+              <li>Built RESTful API using Ruby on Rails MVC architecture.</li>
+              <li>Designed and created a multi-page application using React.js and Bootstrap.</li>
+              <li>Used axios library and <a href="https://explorer.lichess.ovh">lichess API</a> to retrieve recent example chess games of openings .</li>
+              <li>Created secure User authenticated profiles using JSON web tokens.</li>
+              <li>Incorporates RSPEC tests for the backend.</li>
             </ul>
+          </div>
+          <div className="content">
+            <p>Attendance-management - API where a user can determine whether a student is present in school.</p>
+            <ul>
+              <li><a href="https://github.com/avrrodriguez/attendance-management-system">Backend Repo</a></li>
+              <li>Built RESTful, MVC API using Java Spring Boot, JpaRepository, and PostgresQL database.</li>
+              <li>Implemented custom error handling, and user authentication.</li>
+            </ul>
+          </div>
+          <div className="content">
+            <p>Barkbnb - A clone of Airbnb for pet owners to look for boarding options for their pets.</p>
+            <ul>
+              <li><a href="https://github.com/kyle-pazdel/bark-bnb.git">Repo</a></li>
+              <li>Worked in an Agile team of 3 to build a Ruby on Rails application.</li>
+              <li>Formatted multi-page application with Bootstrap and custom CSS.</li>
+              <li>Utilized PostgreSQL for relational database management.</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div className="education-title">
+            <h2>Education</h2>
+          </div>
+          <div className="bottom-border-custom"></div>
+          <div className="content">
+            <div className="title-date-container">
+              <p>Actualize Coding Bootcamp | Certified in Full-Stack Web Development</p>
+              <p>Jul 2022 - Nov 2022</p>
+            </div>
+            <ul>
+              <li>Design and managed 100+ wordpress sites</li>
+              <li>Troubleshoot and debug sites using Javascript, PHP, HTML, and CSS</li>
+              <li>Work with multiple wordpress builders and plugins including Oxygen, Breakdance, and ACF</li>
+            </ul>
+          </div>
+          <div className="content">
+            <div className="title-date-container">
+              <p>Colgate University | Bachelors of Arts in Psychology</p>
+              <p>Aug 2016 - May 2020</p>
+            </div>
           </div>
         </div>
       </div>
