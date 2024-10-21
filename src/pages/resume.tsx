@@ -10,7 +10,7 @@ export default function Resume() {
           </div>
           <div className="bottom-border-custom"></div>
           <div className="content">
-            <p>Melbourne, Florida | 305.527.5076 | <a href="mailto:avrodriguez092@gmail.com">avrodriguez092@gmail.com</a> | <a href="https://github.com/avrrodriguez" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/avrrodriguez98" target="_blank">Linkedin</a> | <a href="/">Portfolio</a></p>
+            <p>Melbourne, Florida | 305.527.5076 | <a href="mailto:avrodriguez092@gmail.com">avrodriguez092@gmail.com</a> | <a href="https://github.com/avrrodriguez" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/avrrodriguez98" target="_blank">Linkedin</a> | <a href="/">Portfolio</a> | <a href="/abraham-v-rodriguez-resume.pdf" target="_blank">Download Resume</a></p>
           </div>
         </div>
         <div>
