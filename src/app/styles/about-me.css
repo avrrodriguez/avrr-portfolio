@@ -4,6 +4,10 @@
   padding: 50px;
 }
 
+#about-me {
+  scroll-margin-top: 50px;
+}
+
 .about-me-container {
   width: 1200px;
   max-width: 80%;

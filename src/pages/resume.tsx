@@ -20,13 +20,24 @@ export default function Resume() {
           <div className="bottom-border-custom"></div>
           <div className="content">
             <div className="title-date-container">
-              <p>Web Developer | Dentalfone</p>
+              <p>Web Developer | Dentalfone | Full-Time</p>
               <p>Jul 2023 - Present</p>
             </div>
             <ul>
               <li>Design and managed 100+ wordpress sites</li>
               <li>Troubleshoot and debug sites using Javascript, PHP, HTML, and CSS</li>
               <li>Work with multiple wordpress builders and plugins including Oxygen, Breakdance, and ACF</li>
+            </ul>
+            <div className="title-date-container">
+              <p>Front End Developer | AngelPT - Part-Time</p>
+              <p>Sep 2024 - Present</p>
+            </div>
+            <ul>
+              <li>Design and managed a Next.js/React.js Website for a professional business</li>
+              <li>Built the website using Javascript, Typescript, HTML, and CSS.</li>
+              <li>Optimized the SEO and accessability of the website using SEO strategies and WCAG</li>
+              <li>Interacted with client continuously in order to build the best fitting design for the website.</li>
+              <li>Deployed site using Vercel and managed version control using github.</li>
             </ul>
           </div>
         </div>
@@ -37,9 +48,9 @@ export default function Resume() {
           <div className="bottom-border-custom"></div>
           <div className="content">
             <div>
-              <p><b>Languages</b>: Wordpress, JavaScript, Java, Typescript ,HTML, CSS</p>
+              <p><b>Languages</b>: Wordpress, JavaScript, Java, Typescript, HTML, CSS</p>
               <p><b>Frameworks</b>: React, Spring Boot, Next.js, Nodejs, Bootstrap</p>
-              <p><b>Databases/Libraries/Tools</b>: GraphQL, ACF, PostgresQL, SQL, npm, RSPEC, APIs, Git, GitHub</p>
+              <p><b>Databases/Libraries/Tools</b>: GraphQL, ACF, PostgresQL, SQL, NPM, RSPEC, APIs, Git, GitHub</p>
             </div>
           </div>
         </div>
@@ -49,7 +60,7 @@ export default function Resume() {
           </div>
           <div className="bottom-border-custom"></div>
           <div className="content coding-projects-content">
-            <p>Wordpress Calendar - Full stack application where a user can add events to a calendar.</p>
+            <p><b>Wordpress Calendar - Full stack application where a user can add events to a calendar.</b></p>
             <ul>
               <li>Built GraphQL API using Headless Wordpress.</li>
               <li>Designed and created a multi-page application using Next.js and Typescript.</li>
@@ -57,7 +68,7 @@ export default function Resume() {
             </ul>
           </div>
           <div className="content">
-            <p>Chess Your Opening - Full stack application where a user can study chess openings.</p>
+            <p><b>Chess Your Opening - Full stack application where a user can study chess openings.</b></p>
             <ul>
               <li><a href="https://github.com/avrrodriguez/chess-your-opening">Backend Repo</a> / <a href="https://github.com/avrrodriguez/chess-your-opening-frontend">Frontend Repo</a></li>
               <li>Built RESTful API using Ruby on Rails MVC architecture.</li>
@@ -68,7 +79,7 @@ export default function Resume() {
             </ul>
           </div>
           <div className="content">
-            <p>Attendance-management - API where a user can determine whether a student is present in school.</p>
+            <p><b>Attendance-management - API where a user can determine whether a student is present in school.</b></p>
             <ul>
               <li><a href="https://github.com/avrrodriguez/attendance-management-system">Backend Repo</a></li>
               <li>Built RESTful, MVC API using Java Spring Boot, JpaRepository, and PostgresQL database.</li>
@@ -76,7 +87,7 @@ export default function Resume() {
             </ul>
           </div>
           <div className="content">
-            <p>Barkbnb - A clone of Airbnb for pet owners to look for boarding options for their pets.</p>
+            <p><b>Barkbnb - A clone of Airbnb for pet owners to look for boarding options for their pets.</b></p>
             <ul>
               <li><a href="https://github.com/kyle-pazdel/bark-bnb.git">Repo</a></li>
               <li>Worked in an Agile team of 3 to build a Ruby on Rails application.</li>
