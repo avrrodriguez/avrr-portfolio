@@ -6,7 +6,7 @@
 
   animation: ripple-animation-frames 6s forwards;
   animation-timing-function: linear;
-  animation-delay: 3.8s;
+  animation-delay: 3.1s;
 }
 
 @keyframes ripple-animation-frames {

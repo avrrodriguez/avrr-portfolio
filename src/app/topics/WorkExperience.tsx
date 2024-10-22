@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function WorkExperience() {
   return(
-    <div className="work-experience">
+    <div id="work-experience" className="work-experience">
       <div className="top-shadow"></div>
-      <h2>Work Experience</h2>
+      <h2>Work Experiences</h2>
       <Image 
           className="work-experience-transition-image" 
           src='/transition-accent-img.png' 
@@ -13,7 +13,7 @@ export default function WorkExperience() {
           width={300} 
           height={300} 
         />
-      <div className="work-experience-title">
+      <div id="web-developer" className="work-experience-title">
         <h3>Web Developer</h3>
         <Image 
           className="work-experience-title-accent-image" 
@@ -77,7 +77,7 @@ export default function WorkExperience() {
           width={300} 
           height={300} 
         />
-      <div className="work-experience-title">
+      <div id="front-end-developer" className="work-experience-title">
         <h3>Front End Developer</h3>
         <Image 
           className="work-experience-title-accent-image" 
@@ -134,7 +134,7 @@ export default function WorkExperience() {
           </div>
         </div>
       </div>
-      <div className="contact-section">
+      <div id="contact-section" className="contact-section">
       <h5>You can find my email, phone number, and other information by clicking the link below.</h5>
       <div className="resume-button-section">
           <a className="resume-button" href="/resume">Resume</a>

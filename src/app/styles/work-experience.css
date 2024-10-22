@@ -151,3 +151,15 @@ div.work-experience {
   background-position: left;
   transition: background-position 0.5s linear;
 }
+
+#work-experience {
+  scroll-margin-top: 50px;
+}
+
+#web-developer {
+  scroll-margin-top: 100px;
+}
+
+#front-end-developer {
+  scroll-margin-top: 100px;
+}
