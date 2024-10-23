@@ -2,18 +2,17 @@
 
 import "../styles/about-me.css";
 import "../effects/about-me-scrolling-effect.css";
-import ScrollViewportChecker from "../utils/ScrollViewportChecker";
 import { useEffect } from "react";
+import AddScrollAnimation from "../utils/AddScrollAnimation";
 
 export default function AboutMe() {
 
   function ScrollAnimation() {
-    let elemInViewPort: boolean | undefined = ScrollViewportChecker("about-me-container");
-    let inViewElem: Element = document.getElementsByClassName("about-me-container")[0];
-
-    if (elemInViewPort && inViewElem) {
-      inViewElem.classList.add("border-scrolling-effect")
-    }
+    AddScrollAnimation("about-me-container");
+    AddScrollAnimation("web-developer");
+    AddScrollAnimation("web-developer-info");
+    AddScrollAnimation("front-end-developer");
+    AddScrollAnimation("front-end-developer-info");
   }
 
   useEffect(() => {

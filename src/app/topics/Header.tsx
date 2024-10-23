@@ -4,7 +4,6 @@ import "../styles/header.css";
 import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [activeLink, setActiveLink] = useState("none");
 
   function handleClickHeaderMenu(element: Element, allElements: HTMLCollectionOf<Element>): void {
     console.log("click", element);

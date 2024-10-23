@@ -1,7 +1,10 @@
+"use client"
+
 import "../styles/work-experience.css";
 import Image from "next/image";
 
 export default function WorkExperience() {
+
   return(
     <div id="work-experience" className="work-experience">
       <div className="top-shadow"></div>
@@ -24,7 +27,7 @@ export default function WorkExperience() {
         />
         <h4 className="work-experience-description">Dentalfone, 1+ years experience - 07/2023-present</h4>
       </div>
-      <div className="work-experience-info">
+      <div id="web-developer-info" className="work-experience-info">
         <div className="work-experience-tools">
           <div className="work-experience-tools-title">
             <h4>Technologies</h4>
@@ -88,7 +91,7 @@ export default function WorkExperience() {
         />
         <h4 className="work-experience-description">AngelPT, 2+ months 09/2024-present</h4>
       </div>
-      <div className="work-experience-info">
+      <div id="front-end-developer-info" className="work-experience-info">
         <div className="work-experience-tools">
           <div className="work-experience-tools-title">
             <h4>Technologies</h4>
