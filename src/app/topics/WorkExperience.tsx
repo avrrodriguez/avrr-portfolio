@@ -42,7 +42,7 @@ export default function WorkExperience() {
           <div className="work-experience-tools-info">
             <div className="work-experience-tools-programming">
               <p>Designed, managed, and built 100+ sites in wordpress using multiple builders.</p>
-              <p>Used HTML, CSS, Javascript, PHP, and jQuery every day in order to build sites that satistfy clients.</p>
+              <p>Used HTML, CSS, Javascript, PHP, and jQuery every day in order to build responsive sites that satisfy clients.</p>
             </div>
             <div className="work-experience-tools-general">
               <p>Proficient in Adobe Creative Cloud to create visually compelling designs, and multimedia content.</p>
@@ -106,7 +106,7 @@ export default function WorkExperience() {
           <div className="work-experience-tools-info">
             <div className="work-experience-tools-programming">
               <p>Designed, managed, and built a professional website using Next.js/React.js</p>
-              <p>Used HTML, CSS, Javascript, and Typescript in order to build the front end of the website.</p>
+              <p>Used HTML, CSS, Javascript, and Typescript in order to build the responsive front end of the website.</p>
             </div>
             <div className="work-experience-tools-general">
               <p>Proficient in Adobe Creative Cloud to create visually compelling designs, and multimedia content.</p>
