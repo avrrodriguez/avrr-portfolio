@@ -166,3 +166,38 @@ div.work-experience {
 #front-end-developer {
   scroll-margin-top: 100px;
 }
+
+@media screen and (max-width: 769px) {
+  .work-experience-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-experience-description {
+    padding: 0px 15px;
+    text-align: center;
+  }
+
+  .work-experience-tools,
+  .work-experience-skills
+  {
+    width: 100%;
+  }
+
+  .work-experience-tools-info,
+  .work-experience-skills-info
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-experience-tools-info > div,
+  .work-experience-skills-info > div
+  {
+    width: 100%;
+  }
+
+  .contact-section > h5 {
+    text-align: center;
+  }
+}
