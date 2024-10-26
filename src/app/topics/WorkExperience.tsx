@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import "../styles/work-experience.css";
 import Image from "next/image";
 
@@ -140,7 +141,7 @@ export default function WorkExperience() {
       <div id="contact-section" className="contact-section">
       <h5>You can find my email, phone number, and other information by clicking the link below.</h5>
       <div className="resume-button-section">
-          <a className="resume-button" href="/resume">Resume</a>
+          <Link className="resume-button" href="/resume">Resume</Link>
       </div>
     </div>
     </div>

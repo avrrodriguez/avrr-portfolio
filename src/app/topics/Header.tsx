@@ -1,13 +1,11 @@
 "use client"
 
 import "../styles/header.css";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Header() {
 
   function handleClickHeaderMenu(element: Element, allElements: HTMLCollectionOf<Element>): void {
-    console.log("click", element);
-    console.log(element.classList);
 
     for (let i=0; i<allElements.length; i++) {
       if (allElements[i] == element) {
@@ -19,10 +17,10 @@ export default function Header() {
   }
   
   function setEventListeners() {
-    let elements = document.getElementsByClassName("header-menu-link");
+    const elements = document.getElementsByClassName("header-menu-link");
     
     for (let i=0; i<elements.length; i++) {
-      let currElement = elements[i];
+      const currElement = elements[i];
       elements[i].addEventListener("click", () => handleClickHeaderMenu(currElement, elements))
     }
   }
