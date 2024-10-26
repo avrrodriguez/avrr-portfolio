@@ -19,12 +19,16 @@
 
 @-webkit-keyframes border-scrolling-animation {
   from {
+    opacity: 0;
     -webkit-opacity: 0;
+    transform: translateY(100px);
     -webkit-transform: translateY(100px);
   }
 
   to {
+    opacity: 1;
     -webkit-opacity: 1;
+    transform: translateY(0px);
     -webkit-transform: translateY(0px);
   }
 }
