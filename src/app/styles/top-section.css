@@ -101,3 +101,16 @@
     top: 15vh;
   }
 }
+
+@media screen and (max-width: 769px) {
+  .chess-piece-image,
+  .computer-pencil-image {
+    top: 70px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .chess-piece-image, .gear-image {
+    display: none;
+  }
+}
