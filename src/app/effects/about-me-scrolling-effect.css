@@ -1,5 +1,6 @@
 .border-scrolling-effect {
   animation: 1s border-scrolling-animation ease forwards;
+  -webkit-animation: 1s border-scrolling-animation ease forwards;
   opacity: 0;
   transform: translateY(100px);
 }
@@ -13,5 +14,17 @@
   to {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes border-scrolling-animation {
+  from {
+    -webkit-opacity: 0;
+    -webkit-transform: translateY(100px);
+  }
+
+  to {
+    -webkit-opacity: 1;
+    -webkit-transform: translateY(0px);
   }
 }
