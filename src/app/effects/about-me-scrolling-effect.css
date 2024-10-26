@@ -1,5 +1,5 @@
 .border-scrolling-effect {
-  animation: 1s border-scrolling-animation linear forwards;
+  animation: 1s border-scrolling-animation ease forwards;
   opacity: 0;
   transform: translateY(100px);
 }
